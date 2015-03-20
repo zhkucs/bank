@@ -8,7 +8,7 @@
 </head>
 <body>
 
- <table width="100%" cellspacing="0" cellpadding="4" border="0">
+ <table width="584" cellspacing="0" cellpadding="4" border="0" height="147">
 
   <tbody><tr> 
 
@@ -30,15 +30,14 @@
 
   <tr> 
 
-     <td width="100%" bgcolor="#eaeaea" colspan="2"> 
-
-      <form action="servlet/Save" name="Name"><p>
+     <td width="100%" bgcolor="#eaeaea" colspan="2"><div align="center">  
+ 
+      </div><form action="servlet/Save" name="Name"><p align="center">
           <label for="textfield">输入金额: </label>
           <input type="text" id="textfield" 
           name="amount">
-          <input type="checkbox" name="checkbox1">      
-          </p> <p> 
-          <select></select>>
+          <input type="checkbox" name="checkbox1"> 定期     
+          </p> <p align="center"> 
           <input type="submit" value="确定" name="Submit">
         </p>
     </form>
