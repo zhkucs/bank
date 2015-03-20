@@ -39,12 +39,13 @@ public class Save extends HttpServlet {
 			throws ServletException, IOException {
 
 		response.setContentType("text/html");
+		response.setCharacterEncoding("UTF-8");// 设置响应的字符的编码为UTF-8
 		Account acc = getAccount();
 		// 从form里取出参数amount
 		String amount = request.getParameter("amount");
 		acc.save(Double.parseDouble(amount));
 		PrintWriter out = response.getWriter();
-		out.println("save ok! amount is " + amount);
+		out.println("save ok! amount is 啊啊" + amount);
 	}
 
 	static Account account= new Account();
